@@ -1,0 +1,139 @@
+@media screen and (min-width: 550px) {
+  .timeframes {
+    width: 92.5%;
+  }
+
+  .activities {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .timeframes {
+    width: 93.5%;
+  }
+
+  .activities {
+    margin-top: 150px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  * {
+    max-width: 100vw;
+  }
+
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    scale: .8;
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: min-content;
+  }
+
+  .profile {
+    width: 400px;
+    height: fit-content;
+    margin-left: 4rem;
+  }
+
+  .profile-intro {
+    align-items: flex-start;
+    flex-direction: column;
+    height: 350px;
+    width: 250px;
+  }
+
+  .profile-intro > div {
+    margin-top: 50px;
+  }
+
+  .profile-intro img {
+    width: 40%;
+  }
+
+  .profile-intro > div h1 {
+    font-size: 30px;
+    line-height: 2.5rem;
+  }
+
+  .timeframes {
+    width: 86%;
+    top: -65px;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 200px;
+    padding: 70px 25px 20px;
+  }
+
+  .timeframes > li:hover {
+    color: var(--hover-text-color);
+    cursor: pointer;
+  }
+
+  .activities {
+    position: relative;
+    top: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 30px;
+    min-height: 50vh;
+    margin: 0 auto;
+  }
+
+  .activity-icon {
+    top: -40px;
+  }
+
+  .activity {
+    width: 250px;
+    height: 200px;
+    margin: 1rem auto;
+    padding: 0 1rem 1rem;
+  }
+
+  .activity-header {
+    margin-bottom: 1rem;
+  }
+
+  .activity-info {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .activity-info > p:nth-child(1) {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1169px) {
+  .profile{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: fit-content;
+  }
+  
+  .profile-intro {
+    /* align-items: flex-start;
+    flex-direction: column; */
+    height: 350px;
+    width: 250px;
+  }
+
+  .timeframes{
+    left: 105px;
+    width: 250px;
+  }
+
+  .profile-intro > div h1 {
+    font-size: 30px;
+    line-height: 2.5rem;
+    font-size: 40px;
+  }
+}

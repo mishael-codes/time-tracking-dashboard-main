@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+:root {
+  --body-bg: hsl(226, 43%, 10%);
+
+  --profile-bg: hsl(246, 80%, 60%);
+
+  /* Icon bg colors */
+  --work-icon-bg: hsl(15, 100%, 70%);
+  --play-icon-bg: hsl(195, 74%, 62%);
+  --study-icon-bg: hsl(348, 100%, 68%);
+  --exercise-icon-bg: hsl(145, 58%, 55%);
+  --social-icon-bg: hsl(264, 64%, 52%);
+  --self-care-icon-bg: hsl(43, 84%, 65%);
+
+  --hover-text-color: hsl(236, 100%, 97%);
+
+  --card-bg: hsl(235, 46%, 20%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  max-width: 100vw;
+}
+
+body {
+  background-color: var(--body-bg);
+}
+
+main {
+  min-width: 99.9vw;
+  margin: 3.2rem auto;
+}
+
+.profile {
+  width: 100vw;
+  height: 240px;
+  position: relative;
+}
+
+.profile-intro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  margin: 1.2rem;
+  border-radius: 20px;
+  background-color: var(--profile-bg);
+  z-index: 9999;
+}
+
+.profile-intro > div {
+  width: 100%;
+  line-height: 1.9rem;
+  padding-left: 10px;
+}
+
+.profile-intro > div > h1 {
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--hover-text-color);
+}
+
+.profile-intro > div > p {
+  color: hsl(236, 100%, 87%);
+}
+
+.profile-intro img {
+  width: 30%;
+  border: 3px solid var(--hover-text-color);
+  border-radius: 50%;
+}
+
+.timeframes {
+  position: relative;
+  height: 90px;
+  width: 90%;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  background-color: hsl(235, 46%, 20%);
+  font-weight: 400;
+}
+
+.daily,
+.weekly,
+.monthly {
+  color: hsl(235, 45%, 61%);
+  list-style-type: none;
+  transition: 1s;
+}
+
+.active {
+  color: var(--hover-text-color);
+}
+
+/* styling the activities section */
+
+.activities {
+  position: relative;
+  width: 90vw;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.activity-icon {
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: flex-end;
+  z-index: -1;
+}
+
+#work-icon {
+  background-color: var(--work-icon-bg);
+}
+
+#play-icon {
+  background-color: var(--play-icon-bg);
+}
+
+#study-icon {
+  background-color: var(--study-icon-bg);
+}
+
+#exercise-icon {
+  background-color: var(--exercise-icon-bg);
+}
+
+#social-icon {
+  background-color: var(--social-icon-bg);
+}
+
+#self-care-icon {
+  background-color: var(--self-care-icon-bg);
+}
+
+.activity {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1.5rem 1rem 1rem;
+  border-radius: 20px;
+  margin:3.5rem auto;
+  background-color: var(--card-bg);
+}
+
+.activity-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--hover-text-color);
+}
+
+.activity-header > h3 {
+  font-weight: 500;
+}
+
+.activity-info {
+  width: 100%;
+  margin-top: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.activity-info > p:nth-child(1) {
+  font-size: 2rem;
+  color: var(--hover-text-color);
+}
+
+.activity-info > p:nth-child(2) {
+  color: hsl(236, 100%, 87%);
+}
+
+/* .activity:nth-last-child(1){
+  margin-bottom: 3rem;
+} */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--hover-text-color);
+  padding: 2rem;
+  background: var(--card-bg);
+  border-radius: 20px 20px 0 0;
+}
+.attribution a {
+  color: var(--play-icon-bg);
+}
