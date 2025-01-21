@@ -99,142 +99,142 @@ monthlyBtn.addEventListener("click", () => {
 the above is the click event that affects the time spent on work
 ///////////////////////////////////////////////////////////////*/
 
-// weeklyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("play-current");
-//   let prevTime = document.getElementById("play-previous");
+weeklyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("play-current");
+  let prevTime = document.getElementById("play-previous");
 
-//   currentTime.textContent = timeranges[1].timeframes.daily.current; //1
-//   prevTime.textContent = timeranges[1].timeframes.daily.previous; //2
-// });
+  currentTime.textContent = timeranges[1].timeframes.daily.current; //1
+  prevTime.textContent = timeranges[1].timeframes.daily.previous; //2
+});
 
-// weeklyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("play-current");
-//   let prevTime = document.getElementById("play-previous");
+weeklyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("play-current");
+  let prevTime = document.getElementById("play-previous");
 
-//   currentTime.textContent = timeranges[1].timeframes.weekly.current; //10
-//   prevTime.textContent = timeranges[1].timeframes.weekly.previous; //8
-// });
+  currentTime.textContent = timeranges[1].timeframes.weekly.current; //10
+  prevTime.textContent = timeranges[1].timeframes.weekly.previous; //8
+});
 
-// monthlyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("play-current");
-//   let prevTime = document.getElementById("play-previous");
+monthlyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("play-current");
+  let prevTime = document.getElementById("play-previous");
 
-//   currentTime.textContent = timeranges[1].timeframes.monthly.current; //29
-//   prevTime.textContent = timeranges[1].timeframes.monthly.previous; //23
-// });
+  currentTime.textContent = timeranges[1].timeframes.monthly.current; //29
+  prevTime.textContent = timeranges[1].timeframes.monthly.previous; //23
+});
 
-// /*////////////////////////////////////////////////////////////////
-// the above is the click event that affects the time spent on play
-// ///////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////
+the above is the click event that affects the time spent on play
+///////////////////////////////////////////////////////////////*/
 
-// dailyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("study-current");
-//   let prevTime = document.getElementById("study-previous");
+dailyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("study-current");
+  let prevTime = document.getElementById("study-previous");
 
-//   currentTime.textContent = timeranges[2].timeframes.daily.current; //0
-//   prevTime.textContent = timeranges[2].timeframes.daily.previous; //1
-// });
+  currentTime.textContent = timeranges[2].timeframes.daily.current; //0
+  prevTime.textContent = timeranges[2].timeframes.daily.previous; //1
+});
 
-// weeklyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("study-current");
-//   let prevTime = document.getElementById("study-previous");
+weeklyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("study-current");
+  let prevTime = document.getElementById("study-previous");
 
-//   currentTime.textContent = timeranges[2].timeframes.weekly.current; //4
-//   prevTime.innerText = timeranges[2].timeframes.weekly.current; //7
-// });
+  currentTime.textContent = timeranges[2].timeframes.weekly.current; //4
+  prevTime.innerText = timeranges[2].timeframes.weekly.current; //7
+});
 
-// monthlyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("study-current");
-//   let prevTime = document.getElementById("study-previous");
+monthlyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("study-current");
+  let prevTime = document.getElementById("study-previous");
 
-//   currentTime.textContent = timeranges[2].timeframes.monthly.current; //13
-//   prevTime.textContent = timeranges[2].timeframes.monthly.previous; //19
-// });
+  currentTime.textContent = timeranges[2].timeframes.monthly.current; //13
+  prevTime.textContent = timeranges[2].timeframes.monthly.previous; //19
+});
 
-// /*////////////////////////////////////////////////////////////////
-// the above is the click event that affects the time spent on study
-// ///////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////
+the above is the click event that affects the time spent on study
+///////////////////////////////////////////////////////////////*/
 
-// dailyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("exercise-current");
-//   let prevTime = document.getElementById("exercise-previous");
+dailyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("exercise-current");
+  let prevTime = document.getElementById("exercise-previous");
 
-//   currentTime.textContent = timeranges[3].timeframes.daily.current; //1
-//   prevTime.textContent = timeranges[3].timeframes.daily.previous; //1
-// });
+  currentTime.textContent = timeranges[3].timeframes.daily.current; //1
+  prevTime.textContent = timeranges[3].timeframes.daily.previous; //1
+});
 
-// weeklyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("exercise-current");
-//   let prevTime = document.getElementById("exercise-previous");
+weeklyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("exercise-current");
+  let prevTime = document.getElementById("exercise-previous");
 
-//   currentTime.textContent = timeranges[3].timeframes.weekly.current; //4
-//   prevTime.innerText = timeranges[3].timeframes.weekly.current; //5
-// });
+  currentTime.textContent = timeranges[3].timeframes.weekly.current; //4
+  prevTime.innerText = timeranges[3].timeframes.weekly.current; //5
+});
 
-// monthlyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("exercise-current");
-//   let prevTime = document.getElementById("exercise-previous");
+monthlyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("exercise-current");
+  let prevTime = document.getElementById("exercise-previous");
 
-//   currentTime.textContent = timeranges[3].timeframes.monthly.current; //11
-//   prevTime.textContent = timeranges[3].timeframes.monthly.previous; //18
-// });
+  currentTime.textContent = timeranges[3].timeframes.monthly.current; //11
+  prevTime.textContent = timeranges[3].timeframes.monthly.previous; //18
+});
 
-// /*////////////////////////////////////////////////////////////////
-// the above is the click event that affects the time spent on exercise
-// ///////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////
+the above is the click event that affects the time spent on exercise
+///////////////////////////////////////////////////////////////*/
 
-// dailyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("social-current");
-//   let prevTime = document.getElementById("social-previous");
+dailyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("social-current");
+  let prevTime = document.getElementById("social-previous");
 
-//   currentTime.textContent = timeranges[4].timeframes.daily.current; //1
-//   prevTime.textContent = timeranges[4].timeframes.daily.previous; //3
-// });
+  currentTime.textContent = timeranges[4].timeframes.daily.current; //1
+  prevTime.textContent = timeranges[4].timeframes.daily.previous; //3
+});
 
-// weeklyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("social-current");
-//   let prevTime = document.getElementById("social-previous");
+weeklyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("social-current");
+  let prevTime = document.getElementById("social-previous");
 
-//   currentTime.textContent = timeranges[4].timeframes.weekly.current; //5
-//   prevTime.innerText = timeranges[4].timeframes.weekly.current; //10
-// });
+  currentTime.textContent = timeranges[4].timeframes.weekly.current; //5
+  prevTime.innerText = timeranges[4].timeframes.weekly.current; //10
+});
 
-// monthlyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("social-current");
-//   let prevTime = document.getElementById("social-previous");
+monthlyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("social-current");
+  let prevTime = document.getElementById("social-previous");
 
-//   currentTime.textContent = timeranges[4].timeframes.monthly.current; //21
-//   prevTime.textContent = timeranges[4].timeframes.monthly.previous; //23
-// });
+  currentTime.textContent = timeranges[4].timeframes.monthly.current; //21
+  prevTime.textContent = timeranges[4].timeframes.monthly.previous; //23
+});
 
-// /*////////////////////////////////////////////////////////////////
-// the above is the click event that affects the time spent on socials
-// ///////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////
+the above is the click event that affects the time spent on socials
+///////////////////////////////////////////////////////////////*/
 
-// dailyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("self-care-current");
-//   let prevTime = document.getElementById("self-care-previous");
+dailyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("self-care-current");
+  let prevTime = document.getElementById("self-care-previous");
 
-//   currentTime.textContent = timeranges[5].timeframes.daily.current; //0
-//   prevTime.textContent = timeranges[5].timeframes.daily.previous; //1
-// });
+  currentTime.textContent = timeranges[5].timeframes.daily.current; //0
+  prevTime.textContent = timeranges[5].timeframes.daily.previous; //1
+});
 
-// weeklyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("self-care-current");
-//   let prevTime = document.getElementById("self-care-previous");
+weeklyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("self-care-current");
+  let prevTime = document.getElementById("self-care-previous");
 
-//   currentTime.textContent = timeranges[5].timeframes.weekly.current; //2
-//   prevTime.innerText = timeranges[5].timeframes.weekly.current; //2
-// });
+  currentTime.textContent = timeranges[5].timeframes.weekly.current; //2
+  prevTime.innerText = timeranges[5].timeframes.weekly.current; //2
+});
 
-// monthlyBtn.addEventListener("click", () => {
-//   let currentTime = document.getElementById("self-care-current");
-//   let prevTime = document.getElementById("self-care-previous");
+monthlyBtn.addEventListener("click", () => {
+  let currentTime = document.getElementById("self-care-current");
+  let prevTime = document.getElementById("self-care-previous");
 
-//   currentTime.textContent = timeranges[5].timeframes.monthly.current; //7
-//   prevTime.textContent = timeranges[5].timeframes.monthly.previous; //11
-// });
+  currentTime.textContent = timeranges[5].timeframes.monthly.current; //7
+  prevTime.textContent = timeranges[5].timeframes.monthly.previous; //11
+});
 
-// /*////////////////////////////////////////////////////////////////
-// the above is the click event that affects the time spent on self-care
-// ///////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////
+the above is the click event that affects the time spent on self-care
+///////////////////////////////////////////////////////////////*/

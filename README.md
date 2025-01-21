@@ -64,5 +64,5 @@ I want to learn more about accesing ```JSON``` data in different ways with JavaS
 
 - Twitter - [@mishael_codes](https://www.twitter.com/mishael_codes)
 - LinkedIn - [Mishael Enyi](https://www.linkedin.com/mishael-enyi)
-- Instagram - [@mishael.codes](https://www.instagram.com/mishael.codes)
+- Instagram - [@mishael_codes](https://www.instagram.com/mishael_codes)
 - Frontend Mentor - [@mishael-codes](https://www.frontendmentor.io/profile/mishael-codes)
